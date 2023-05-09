@@ -1,0 +1,56 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-side {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .admin-side {
+   background-color: aqua;
+  }
+  
+  .user-side {
+    background-color: darkslategray;
+  }
+  
+  .background-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .admin-link,
+  .user-link {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .admin-link:hover {
+    background-color: #e2b607;
+  }
+  
+  .user-link:hover {
+    background-color: #2980b9;
+  }
+  
